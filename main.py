@@ -6,7 +6,7 @@ from folium.plugins import HeatMap, MarkerCluster
 import math
 from streamlit_folium import folium_static
 
-df = pd.read_csv('D:/Kaggle/apartment_data.csv')
+df = pd.read_csv('apartment_data.csv')
 
 st.title('Geospatial Analysis of Apartments in Bangalore')
 
